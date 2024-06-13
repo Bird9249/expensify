@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-fade-enter-active,
+.slide-fade-exit-active {
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
+}
+.slide-fade-enter,
+.slide-fade-exit-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.slide-fade-enter {
+  transform: translateX(20px);
+}
+
+.slide-fade-up-down-enter-active,
+.slide-fade-up-down-exit-active {
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+}
+.slide-fade-up-down-enter,
+.slide-fade-up-down-exit-to {
+  transform: translateY(15px);
+  opacity: 0;
+}
+.slide-fade-up-down-enter {
+  transform: translateY(15px);
+}

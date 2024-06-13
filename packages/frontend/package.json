@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "^5.6.0",
+    "@modular-forms/solid": "^0.21.0",
+    "@preline/dropdown": "^2.3.0",
+    "@preline/overlay": "^2.3.0",
+    "@solidjs/router": "^0.13.5",
+    "axios": "^1.7.2",
+    "big.js": "^6.2.1",
+    "emoji-picker-element": "^1.21.3",
+    "preline": "^2.3.0",
+    "solid-js": "^1.8.17",
+    "solid-transition-group": "^0.2.3",
+    "valibot": "^0.31.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.7.4",
+    "@rsbuild/plugin-babel": "^0.7.4",
+    "@rsbuild/plugin-solid": "^0.7.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/big.js": "^6.2.2",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.2"
+  }
+}

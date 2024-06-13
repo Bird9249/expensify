@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1718182383474,
+      "tag": "0000_good_absorbing_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1718183493861,
+      "tag": "0001_short_donald_blake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1718183676654,
+      "tag": "0002_freezing_unus",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1718184288427,
+      "tag": "0003_majestic_misty_knight",
+      "breakpoints": true
+    }
+  ]
+}
